@@ -1,4 +1,4 @@
-FROM python:3.5.3
+FROM python:3.5.7
 WORKDIR /app
 RUN apt update
 RUN python -m venv venv
