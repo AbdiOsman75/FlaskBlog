@@ -1,7 +1,5 @@
 FROM python:3.5.3
 WORKDIR /app
-RUN apt update
-RUN python -m virtualenv venv
 ENV FLASK_ENV production
 ENV FLASK_APP run.py
 COPY requirements .
