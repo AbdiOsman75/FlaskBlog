@@ -2,6 +2,7 @@ version: '3.7'
 services:
   flask:
     image: abdio75/flask
+    build: .
     ports:
       - target: 5000
         published: 80
