@@ -1,3 +1,3 @@
 from application import db
-from appliation.models import Users, Posts
-db.create_al()
+from application.models import Users, Posts
+db.create_all()
